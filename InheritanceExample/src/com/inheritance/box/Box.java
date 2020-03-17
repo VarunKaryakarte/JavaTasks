@@ -9,20 +9,20 @@ public class Box {
 		double height;
 		
 // Box with no dimensions 
-		Box() {
+	public	Box() {
 			this.width = -1;
 			this.height = -1;
 			this.length = -1;
 		}
 		
 // Box with dimensiosn 
-	Box( double width , double height , double length) {
+	public Box( double width , double height , double length) {
 		this.width = width;
 		this.height = height;
 		this.length = length;
 	}
 	
-	double volume() {
+	public double volume() {
 		return width * height * length;
 	}
 
